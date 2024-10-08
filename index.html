@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="theme-color" content="#BC8887" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Long & Yến</title>
+
+  <meta property="og:title" content="Long & Yến - Thứ 3 Ngày 19/11/2024">
+  <meta property="og:description" content="Long & Yến - Thứ 3 Ngày 19/11/2024">
+  <meta property="og:locale" content="id_ID" />
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+  <script src="https://kit.fontawesome.com/2828f7885a.js"
+    integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/jquery.coundown.js"></script>
+  <link rel="icon" type="image/png" href="image/favicon.png" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0KZ7FDTE8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-K0KZ7FDTE8');
+  </script>
+  <!-- Begin Script for Countdown -->
+
+  <!-- Github Button -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</head>
+
+<body>
+  <!-- Begin Preloader -->
+  <div class="preloader-wrapper">
+    <div class="preloader">
+      <img src="image/favicon.png" alt="Flower" />
+    </div>
+  </div>
+  <!-- End Preloader-->
+  <!-- Begin Header -->
+  <div class="header-wrapper" id="home">
+    <!-- Begin Hero -->
+    <section class="hero is-large">
+      <!-- Begin Mobile Nav -->
+      <nav class="navbar is-transparent is-hidden-desktop">
+        <!-- Begin Burger Menu -->
+        <div class="navbar-brand is-fixed-top">
+          <div class="navbar-burger burger" data-target="mobile-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- End Burger Menu -->
+        <div id="mobile-nav" class="navbar-menu">
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <a class="navbar-item" href="#slideshow">
+                Ảnh cưới
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#Waktu">
+                Thời gian
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#lokasi">
+                Địa điểm
+              </a>
+            </div>
+
+            <div class="navbar-item">
+              <a class="navbar-item" href="#rsvp">
+                Liên hệ
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End Mobile Nav -->
+      <!-- Begin Hero Content-->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="txth1">Lễ Thành Hôn</h1>
+          <h2 class="title">Dương Long & Phạm Yến</h2>
+          <h4 class="subtitle tempatwaktu">
+
+            Thứ 3, ngày 19 tháng 11 năm 2024
+
+
+          </h4>
+
+          <div style="display: flex; width: 400px; margin: auto;">
+            <div>Nhà gái: <br> Thôn Quần Thọ, Xã Yên Thọ, Huyện Như Thanh, Tỉnh Thanh Hóa</div>
+            <div>Nhà trai: <br>Kp Cầu Máng, TT Bến Sung, Huyện Như Thanh, Tỉnh Thanh Hóa </div>
+          </div>
+
+          <!-- Start Countdown -->
+          <div>
+            <ul id="hitungmundur" style="font-family: inherit">
+              <li><span class="days">00</span>
+                <p class="days_text">Ngày</p>
+              </li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span>
+                <p class="hours_text">Giờ</p>
+              </li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span>
+                <p class="minutes_text">Phút</p>
+              </li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span>
+                <p class="seconds_text">Giây</p>
+              </li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+
+              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+
+              var harih = '11/19/2024 10:00:00';
+
+              $('#hitungmundur').countdown({
+                date: harih, // TODO Date format: 07/27/2017 17:00:00
+                offset: +7, // TODO Your Timezone Offset
+                day: 'Ngày',
+                days: 'Ngày'
+              }, function () {
+                // alert('Done!');
+              });
+            </script>
+          </div>
+        </div>
+
+        <!-- End Countdown -->
+      </div>
+      <!-- End Hero Content-->
+      <!-- Begin Hero Menu -->
+      <div class="hero-foot ">
+        <div class="hero-foot--wrapper">
+          <div class="columns">
+            <div class="column is-12 hero-menu-desktop has-text-centered">
+              <ul>
+                <li class="is-active">
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#slideshow">Ảnh cưới</a>
+                </li>
+                <li>
+                  <a href="#Waktu">Thời gian</a>
+                </li>
+                <li>
+                  <a href="#lokasi">Địa điểm</a>
+                </li>
+
+                <li>
+                  <a href="#rsvp">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Hero Menu -->
+    </section>
+    <!-- End Hero -->
+  </div>
+  <!-- End Header -->
+
+  <!-- Begin Main Content -->
+  <div class="main-content">
+    <!-- Begin regular-section-->
+    <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content"
+      id="regular-section">
+
+      <div data-aos="fade-up" data-aos-easing="linear">
+        <div class="nama-lengkap">
+          Trân trọng kính mời
+        </div>
+
+      </div>
+
+      <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+    
+        <br />
+        Kính mời Anh/Chị/Em/Bạn tới dự buổi tiệc mừng lễ cưới cùng gia đình chúng mình.
+        <br />
+        Sự hiện diện của Anh/Chị/Em/Bạn là niềm hân hạnh rất lớn đối với gia đình chúng mình.
+        <br />
+        Gia đình rất hân hạnh được đón tiếp!
+      </p>
+
+      <span class="space40px"></span>
+      <span class="space40px"></span>
+
+      <div data-aos="fade-up" data-aos-easing="linear">
+        <div class="nama-lengkap">
+        
+          Dương Thành Long
+        </div>
+        <div class="ampersand">
+          <div id="lottie-animation" style="width: 400px; height: 400px;"></div>
+         </div>
+        <div class="nama-lengkap">
+          Phạm Thị Yến
+        </div>
+
+      </div>
+      <span class="space40px"></span>
+      <div data-aos="fade-up" data-aos-easing="linear">
+        <!-- <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~"> -->
+        <div class="ampersand">
+          <div id="lottie-animation1" style="width: 400px; height: 400px;"></div>
+         </div>
+      </div>
+      <span class="space40px"></span>
+      <span class="space40px"></span>
+    </section>
+    <!-- End regular-section-->
+
+    <section class="section-darker " id="slideshow">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="image/slide/slide8.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="image/slide/slide10.jpg" style="width:100%">
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+      </div>
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+    </section>
+    <!-- Begin Waktu Section -->
+    <section class="section-dark" id="Waktu">
+      <div class="container">
+        <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+          <h1 class="title has-text-centered section-title">Thời gian</h1>
+        </div>
+
+
+        <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+          <div class="column is-4 has-vertically-aligned-content">
+
+            <p class="is-larger has-text-centered">
+            <div class="waktu tanggal-hari has-text-centered">Chủ Nhật</div>
+            <div class="waktu tanggal-angka has-text-centered">17</div>
+            <div class="waktu tanggal-bulan has-text-centered">Tháng 11 Năm 2024</div>
+            </p>
+
+          </div>
+          <div class="column is-4 has-vertically-aligned-content">
+
+            <p class="waktu is-larger has-text-centered">
+              <strong>2:00 - 4:00 PM</strong>
+            </p>
+          </div>
+
+          <div class="column is-4 has-vertically-aligned-content">
+            <h1 class="waktu is-larger has-text-centered">
+              Lễ ăn hỏi
+              <br>
+              Tiệc nhà gái
+          
+            </h1>
+          </div>
+
+        </div>
+      
+        <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+          <div class="column is-4 has-vertically-aligned-content">
+
+            <p class="is-larger has-text-centered">
+            <div class="waktu tanggal-hari has-text-centered">Thứ 2</div>
+            <div class="waktu tanggal-angka has-text-centered">18</div>
+            <div class="waktu tanggal-bulan has-text-centered">Tháng 11 Năm 2024</div>
+            </p>
+
+          </div>
+          <div class="column is-4 has-vertically-aligned-content">
+
+            <p class="waktu is-larger has-text-centered">
+              <strong>Cả ngày</strong>
+            </p>
+
+          </div>
+
+          <div class="column is-4 has-vertically-aligned-content">
+
+            <h1 class="waktu is-larger has-text-centered">
+              Tiệc đãi khách
+            </h1>
+
+
+          </div>
+
+        </div>
+
+        <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+          <div class="column is-4 has-vertically-aligned-content">
+
+            <p class="is-larger has-text-centered">
+            <div class="waktu tanggal-hari has-text-centered">Thứ 3</div>
+            <div class="waktu tanggal-angka has-text-centered">19</div>
+            <div class="waktu tanggal-bulan has-text-centered">Tháng 11 Năm 2024</div>
+            </p>
+
+          </div>
+          <div class="column is-4 has-vertically-aligned-content">
+
+            <p class="waktu is-larger has-text-centered">
+              <strong>10:00 AM</strong>
+              <br>
+            </p>
+
+          </div>
+
+          <div class="column is-4 has-vertically-aligned-content">
+
+            <h1 class="waktu is-larger has-text-centered">
+              Lễ thành hôn
+              <br>
+              Tiệc nhà trai
+            </h1>
+
+
+          </div>
+
+        </div>
+      </div>
+      <div class="space40px"></div>
+      <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+        <a href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NGgzdW00NG84dXFwMzcwNXYxbGliNGxzaWggZGFlbmdkb2FuZ0Bt&amp;tmsrc=daengdoang%40gmail.com"
+          target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank"
+          data-aos="zoom-in">
+          <i class="far fa-calendar-plus"></i>
+          &nbsp;&nbsp;Google Calendar
+        </a>
+      </div>
+    </section>
+    <!-- End Waktu Content -->
+
+    <!-- Begin Lokasi Section -->
+    <section class="section-darker" id="lokasi">
+      <div class="container">
+        <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+          <h1 class="title has-text-centered section-title">Địa điểm</h1>
+          <p class="tempat is-larger has-text-centered">
+            <strong>Thanh Hóa</strong>
+            <br>
+            Kp Cầu Máng, Thị Trấn Bến Sung
+            <br>
+            Huyện Như Thanh, Tỉnh Thanh Hóa
+            <br>
+          </p>
+        </div>
+        <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2168.765699266043!2d105.5798!3d19.62749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3136f873af3c50e1%3A0x89a266af81dd55bb!2zMTkuNjI3NDksIDEwNS41Nzk4!5e0!3m2!1sen!2s!4v1664084758726!5m2!1sen!2s" 
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="space40px"></div>
+        <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=19.6273911,105.5791911"
+            class="button btn-cta" target="_blank" data-aos="zoom-in">
+            <i class="far fa-directions"></i>
+            &nbsp;&nbsp;Google đến nhà chủ rể
+          </a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+          <p class="tempat is-larger has-text-centered">
+            <strong>Thanh Hóa</strong>
+            <br>
+             Ngõ 1 (Xóm Cồn Bỉm) - Thôn Quần Thọ, Xã Yên Thọ
+            <br>
+             Huyện Như Thanh, Tỉnh Thanh Hóa
+            <br>
+          </p>
+        </div>
+        <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2168.765699266043!2d105.6016!3d19.62381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3136f873af3c50e1%3A0x89a266af81dd55bb!2zMTkuNjIzODEsIDEwNS42MDE2!5e0!3m2!1sen!2s!4v1664084758726!5m2!1sen!2s"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="space40px"></div>
+        <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=19.62381,105.6016"
+            class="button btn-cta" target="_blank" data-aos="zoom-in">
+            <i class="far fa-directions"></i>
+            &nbsp;&nbsp;Google đến nhà cô dâu
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Lokasi Content -->
+
+    <!-- Begin RSVP Content -->
+    <section class="section-dark contact" id="rsvp">
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-12 prolog">
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">
+              Liên hệ
+            </h1>
+          </div>
+          <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+            <p class="h2 subtitle">
+              Cảm ơn mọi người đã tới dự và chung vui với gia đình chúng mình ❤️ <br>
+              <p class="h2 subtitle">
+                 Mọi sự yêu thương những tình cảm món quà ở xa chúng mình xin nhận tại: 
+              </p>
+                <br>
+            </p>
+
+            <div class="image-container">
+              <img src="image/img_qr_long.png" alt="Image QR Long" class="qr-image">
+              <img src="image/img_qr_yen.png" alt="Image QR Yen" class="qr-image">
+          </div>
+          
+
+            <div class="space40px"></div>
+
+            <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
+              Thank you,
+              <br>
+              <a class="instagram" href="https://www.facebook.com/yyennn21120" target="_blank"
+                alt="Facebook Yến">
+                <i class='fab fa-facebook'></i>Phạm Thị Yến
+              </a>
+              &nbsp
+              <a class="instagram" href="https://www.facebook.com/longmam1710/" target="_blank" alt="Facebook Mắm">
+                <i class='fab fa-facebook'></i> Dương Thành Long
+              </a>
+            </p>
+
+            <div class="space40px"></div>
+            <div data-aos="fade-up" data-aos-easing="linear">
+              <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+            </div>
+            <div class="space40px"></div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- End RSVP Content -->
+  </div>
+  <!-- End Main Content -->
+
+  <!-- Begin Footer -->
+  <div class="footer">
+    <div class="container">
+      <p>DUONG THANH LONG - Ngân hàng TPBANK - STK 0976737702 |
+        PHAM THI YEN - Ngân hàng TPBANK - STK 0981442691</p>
+    </div>
+  </div>
+  <!-- End Footer -->
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menikah.js"></script>
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+
+  <script>
+    AOS.init({
+      easing: "ease-out",
+      duration: 800,
+    });
+  </script>
+
+  <script>
+    var animation = lottie.loadAnimation({
+        container: document.getElementById('lottie-animation'), 
+        renderer: 'svg', 
+        loop: true, 
+        autoplay: true, 
+        path: 'anim/anim_love.json' 
+    });
+</script>
+
+<script>
+  var animation = lottie.loadAnimation({
+      container: document.getElementById('lottie-animation1'), 
+      renderer: 'svg', 
+      loop: true, 
+      autoplay: true, 
+      path: 'anim/anim_flower.json' 
+  });
+</script>
+
+  <script>
+    function copyText(phone) {
+
+      // Copy the text inside the text field
+      navigator.clipboard.writeText(phone);
+
+      // Alert the copied text
+      alert("Copied phone: " + phone);
+    }
+  </script>
+</body>
+
+</html>
