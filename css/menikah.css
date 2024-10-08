@@ -9,7 +9,7 @@
 }
 
 html {
-  font-family: 'damcuoifont2';
+  font-family: "damcuoifont2";
   width: 100%;
   min-height: 100%;
 }
@@ -35,22 +35,21 @@ html {
   font-color: #c33d3b;
 }
 
-
 .hero {
-  /* background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/cover.") no-repeat; */
-  /* background-image: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.5)), url("../image/cover.jpg"); */
-  background-image: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.5)), url("../image/anhcuoi1.JPG");
+  background-image: linear-gradient(
+      rgba(153, 110, 109, 0.65),
+      rgba(153, 110, 109, 0.5)
+    ),
+    url("../image/anhcuoi1.JPG");
   background-attachment: fixed;
   background-size: cover;
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  font-family: 'damcuoifont2';
+  font-family: "damcuoifont2";
 }
 
-
-
 .hero .title {
-  font-family: 'damcuoifont';
+  font-family: "damcuoifont";
   font-weight: 400;
   font-size: 5rem;
   padding-bottom: 5px;
@@ -58,35 +57,34 @@ html {
 }
 
 @font-face {
-  font-family: 'damcuoifont';
-  src: url('./font/damcuoifont.ttf') format('truetype')
+  font-family: "damcuoifont";
+  src: url("./font/damcuoifont.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'damcuoifont2';
-  src: url('./font/SVN-Aleo\ Regular.otf') format('truetype')
+  font-family: "damcuoifont2";
+  src: url("./font/SVN-Aleo\ Regular.otf") format("truetype");
   /* src: url('./font/SVN-Aleo\ Regular.otf') format('truetype') */
 }
 
 @font-face {
-  font-family: 'font1'; 
-  src: url('./font/fonr1.ttf') format('truetype');
+  font-family: "font1";
+  src: url("./font/fonr1.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'font2'; 
-  src: url('./font/font2.ttf') format('truetype');
+  font-family: "font2";
+  src: url("./font/font2.ttf") format("truetype");
 }
-
 
 .txth1 {
   font-size: 4rem;
-  font-family: 'font1', sans-serif;
+  font-family: "font1", sans-serif;
 }
 
 .title1 {
   font-size: 4rem;
-  font-family: 'font2', sans-serif;
+  font-family: "font2", sans-serif;
 }
 
 .hero .subtitle {
@@ -98,7 +96,6 @@ html {
 .hero .tempatwaktu {
   padding-top: 35px;
   font-size: 1.3rem;
-
 }
 
 .hero .hero-foot {
@@ -108,6 +105,16 @@ html {
 }
 
 @media (max-width: 599px) {
+  .body {
+    background-size: contain;
+  }
+
+  .hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   .hero .hero-foot {
     display: none;
   }
@@ -142,7 +149,7 @@ html {
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
   color: #c33d3b;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   border-bottom: 2px solid #c33d3b;
 }
 
@@ -163,7 +170,6 @@ html {
   object-fit: cover; /* giữ tỉ lệ ảnh và cắt những phần vượt quá */
 }
 
-
 .space40px {
   height: 40px;
 }
@@ -175,23 +181,22 @@ html {
 .main-content {
   padding-top: 2rem;
   color: #000;
-  font-family: 'damcuoifont2';
+  font-family: "damcuoifont2";
 }
 
 .main-content .section-dark {
-  background-color: #F4E2E2;
+  background-color: #f4e2e2;
   padding: 80px 40px;
 }
 
 .main-content .section-darker {
-  background-color: #EDD2D1;
+  background-color: #edd2d1;
   padding: 80px 40px;
 }
 
 .main-content .section-dark.resume {
   height: 400px;
   padding-top: 60px;
-
 }
 
 @media (max-width: 599px) {
@@ -235,8 +240,8 @@ html {
 
 .main-content .section-dark.foto-foto .foto-item {
   margin-bottom: 1rem;
-  -webkit-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
   border-radius: 5px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -310,7 +315,7 @@ html {
   height: 50px;
   font-size: 1.1rem;
   text-transform: uppercase;
-  font-family: 'damcuoifont2';
+  font-family: "damcuoifont2";
 }
 
 @media (max-width: 599px) {
@@ -336,7 +341,7 @@ html {
 }
 
 .main-content .section-title {
-  font-family: 'damcuoifont2';
+  font-family: "damcuoifont2";
   font-weight: 900;
   color: #c33d3b;
   text-transform: uppercase;
@@ -346,7 +351,7 @@ html {
 }
 
 .nama-lengkap {
-  font-family: 'font2';
+  font-family: "font2";
   color: #c33d3b;
   font-size: 3.5rem;
   letter-spacing: 0px;
@@ -356,7 +361,7 @@ html {
 
 .ampersand {
   font-size: 5rem;
-  font-family: 'damcuoifont';
+  font-family: "damcuoifont";
   color: #c33d3b;
   line-height: 5rem;
   display: inline-block;
@@ -369,22 +374,21 @@ html {
 
 .waktu {
   font-size: 1.4rem;
-  font-family: 'damcuoifont2';
+  font-family: "damcuoifont2";
 }
 
 .tanggal-angka {
   font-size: 5rem;
-  font-family: 'damcuoifont2';
+  font-family: "damcuoifont2";
   font-weight: 900;
   line-height: 1;
 }
 
 .tempat {
   font-size: 1.4rem;
-  font-family: 'damcuoifont2';
+  font-family: "damcuoifont2";
   margin-bottom: 50px;
 }
-
 
 .has-vertically-align {
   vertical-align: middle;
@@ -408,7 +412,6 @@ html {
   display: inline-block;
   vertical-align: middle;
 }
-
 
 .main-content .no-padding-top {
   padding-top: 0px;
@@ -466,18 +469,18 @@ html {
 }
 
 #toTop:hover {
-  background-color: #BC8887;
+  background-color: #bc8887;
 }
 
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: #F4E2E2;
+  background-color: #f4e2e2;
 }
 
 ::-webkit-scrollbar-thumb {
   box-shadow: inset 0 0 6px #c33d3b;
   -webkit-box-shadow: inset 0 0 6px #c33d3b;
-  background-color: #BC8887;
+  background-color: #bc8887;
 }
 
 body.preloader-site {
@@ -503,7 +506,6 @@ body.preloader-site {
   width: 120px;
 }
 
-
 .btn-whatsapp:hover {
   color: white;
   background-color: #59a543;
@@ -515,7 +517,6 @@ body.preloader-site {
   align-items: center;
   margin: 1rem;
 }
-
 
 .btn-whatsapp {
   background-color: #6cc751;
@@ -530,9 +531,7 @@ body.preloader-site {
   border-bottom: 1px solid #6cc751;
   align-items: center;
   margin: 1rem;
-
 }
-
 
 .btn-cta:hover {
   color: white;
@@ -568,7 +567,6 @@ body.preloader-site {
   height: 55px;
   align-items: center;
   margin: 0.1rem;
-
 }
 
 .voucher-code {
@@ -598,47 +596,45 @@ body.preloader-site {
 }
 
 .white {
-  color: ghostwhite
+  color: ghostwhite;
 }
 
-
 .dusty-pink {
-  color: #D8A9A8
+  color: #d8a9a8;
 }
 
 .dusty-pink-lighter {
-  color: #EDD2D1
+  color: #edd2d1;
 }
 
 .dusty-pink-lightest {
-  color: #F4E2E2
+  color: #f4e2e2;
 }
 
 .dusty-pink-darker {
-  color: #BC8887
+  color: #bc8887;
 }
 
 .dusty-pink-darkest {
-  color: #c33d3b
+  color: #c33d3b;
 }
 
 .tile {
   border-radius: 10px;
 }
 
-
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)), url("../image/2017.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)),
+    url("../image/2017.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
 }
 
-
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.2),
-      rgba(48, 47, 47, 0.9)), url("../image/201806.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)),
+    url("../image/201806.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -646,8 +642,8 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.2),
-      rgba(48, 47, 47, 0.9)), url("../image/201902.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)),
+    url("../image/201902.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -655,8 +651,8 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.2),
-      rgba(48, 47, 47, 0.9)), url("../image/202005.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)),
+    url("../image/202005.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -664,39 +660,33 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.2),
-      rgba(48, 47, 47, 0.9)), url("../image/202102.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)),
+    url("../image/202102.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
 }
-
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.2),
-      rgba(48, 47, 47, 0.9)), url("../image/2022.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)),
+    url("../image/2022.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
 }
-
-
-
-
 
 .title-foto {
   font-size: 18pt;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   text-align: left;
   color: white;
 }
 
-
 .subtitle-foto {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 14pt;
   font-weight: 600;
@@ -723,20 +713,17 @@ body.preloader-site {
   padding: 10px;
 }
 
-
-
-
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
   font-family: Verdana, sans-serif;
-  margin: 0
+  margin: 0;
 }
 
 .mySlides {
-  display: none
+  display: none;
 }
 
 img {
@@ -825,21 +812,20 @@ img {
 
 @keyframes fade {
   from {
-    opacity: .4
+    opacity: 0.4;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-
   .prev,
   .next,
   .text {
-    font-size: 11px
+    font-size: 11px;
   }
 }
 
